@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../doccare"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "doccare",
+		"liveServer.settings.port": 5501
+	}
+}
