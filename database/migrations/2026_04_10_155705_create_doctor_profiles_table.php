@@ -21,7 +21,7 @@ return new class extends Migration
             $table->boolean('is_available')->default(true);
             $table->json('languages')->nullable();
             $table->json('education')->nullable();
-            $table->json('experience')->nullable();
+            $table->integer('experience_years')-> default(0);
             $table->string('clinic_name')->nullable();
             $table->text('clinic_address')->nullable();
             $table->string('clinic_city', 100)->nullable();
